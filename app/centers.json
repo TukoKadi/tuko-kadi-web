@@ -1,0 +1,58 @@
+{
+  "Nairobi": {
+    "Starehe": {
+      "name": "Starehe IEBC Constituency Office",
+      "address": "Anniversary Towers, Kenyatta Avenue",
+      "coords": [-1.2864, 36.8172],
+      "phone": "020 2222152",
+      "hours": "8am-5pm",
+      "wheelchair": true
+    },
+    "Westlands": {
+      "name": "Westlands Primary School",
+      "address": "School Lane, off Waiyaki Way",
+      "coords": [-1.2646, 36.8041],
+      "phone": "0722 000000",
+      "hours": "8am-5pm",
+      "wheelchair": true
+    },
+    "Kibra": {
+      "name": "Joseph Kang'ethe Social Hall",
+      "address": "Woodley Estate, Kibera Drive",
+      "coords": [-1.3075, 36.7820],
+      "phone": "0733 000000",
+      "hours": "8am-5pm",
+      "wheelchair": false
+    }
+  },
+  "Mombasa": {
+    "Mvita": {
+      "name": "Mvita Constituency Office",
+      "address": "Baluchi Complex, Mombasa CBD",
+      "coords": [-4.0632, 39.6705],
+      "phone": "041 1234567",
+      "hours": "8am-5pm",
+      "wheelchair": true
+    }
+  },
+  "Kisumu": {
+    "Kisumu Central": {
+      "name": "Kisumu Central IEBC HQ",
+      "address": "Opposite State House Kisumu",
+      "coords": [-0.1022, 34.7524],
+      "phone": "057 2222152",
+      "hours": "8am-5pm",
+      "wheelchair": true
+    }
+  },
+  "Uasin Gishu": {
+    "Soy": {
+      "name": "Eldoret Town Hall",
+      "address": "Eldoret CBD, Uganda Road",
+      "coords": [0.5143, 35.2698],
+      "phone": "053 1234567",
+      "hours": "8am-5pm",
+      "wheelchair": true
+    }
+  }
+}
