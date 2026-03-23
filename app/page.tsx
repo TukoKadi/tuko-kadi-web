@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from "react";
 import dynamic from 'next/dynamic';
-import registrationDataRaw from "./centers.json";
-const registrationData = registrationDataRaw as Record<string, Record<string, any>>;
+// Use require to avoid strict TypeScript import errors for the JSON
+const registrationData: any = require("./centers.json"); 
 
 const OpenMap = dynamic(() => import('../components/Map'), { 
   ssr: false, 
@@ -11,10 +11,11 @@ const OpenMap = dynamic(() => import('../components/Map'), {
 });
 
 export default function Home() {
-  const [county, setCounty] = useState("");
-  const [constituency, setConstituency] = useState("");
-  const [searchTerm, setSearchTerm] = useState("");
-  const [recentSearches, setRecentSearches] = useState<string[]>([]);
+  const [county, setCounty] = useState<string>("");
+  const [constituency, setConstituency] = useState<string>("");
+  const [searchTerm, setSearchTerm] = useState<string>("");
+  const [recentSearches, setRecentSearches] = useState<any[]>([]);
+  // ... rest of your code
   const [showShare, setShowShare] = useState(false);
 
   const counties = Object.keys(registrationData);
