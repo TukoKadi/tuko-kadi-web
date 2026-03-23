@@ -1,21 +1,29 @@
-"dependencies": {
-    "next": "16.2.0",     // ← Duplicate! Version 16
-    "react": "19.2.4",    // ← Duplicate! Version 19
-    "react-dom": "19.2.4", // ← Duplicate! Version 19
-    "next": "14.2.3",      // ← Duplicate! Version 14
-    "react": "18.3.1",     // ← Duplicate! Version 18
-    "react-dom": "18.3.1", // ← Duplicate! Version 18
-    ...
-},
-"devDependencies": {
-    "@types/react": "^19",    // ← Duplicate! Version 19
-    "@types/react-dom": "^19", // ← Duplicate! Version 19
-    "@types/react": "^18",     // ← Duplicate! Version 18
-    "@types/react-dom": "^18", // ← Duplicate! Version 18
-    "eslint": "^9",            // ← Duplicate! Version 9
-    "eslint-config-next": "16.2.0", // ← Mismatch with Next.js version
-    "eslint": "^8",            // ← Duplicate! Version 8
-    "eslint-config-next": "14.2.3", // ← Duplicate
-    "tailwindcss": "^4",       // ← Duplicate! Version 4
-    "tailwindcss": "^3.4.1"    // ← Duplicate! Version 3
+{
+  "name": "tuko-kadi-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "leaflet": "^1.9.4",
+    "react-leaflet": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/leaflet": "^1.9.12",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
 }
